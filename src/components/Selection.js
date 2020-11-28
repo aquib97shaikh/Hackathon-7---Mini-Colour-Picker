@@ -8,7 +8,6 @@ const Selection = (props)=>{
     }
     const getColor = (c)=>{
         let nb =c.background;
-        console.log(style);
         setStyle({
             "background-color":nb,
         })
